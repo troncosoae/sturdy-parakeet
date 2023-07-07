@@ -13,5 +13,5 @@ pub struct Cell {
 
 
 pub struct Board {
-    pub cells: Vec<Cell>,
+    pub cells: Vec<Vec<Cell>>,
 }
